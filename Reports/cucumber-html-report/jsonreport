@@ -1,0 +1,53 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 13,
+        "name": "To validate the login functionality",
+        "description": "",
+        "id": "to-validate-the-oangehrm-application-functionality;to-validate-the-login-functionality;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "line": 5,
+            "name": "Open the browser and naviate to url",
+            "match": {
+              "location": "LoginPage_TestCase.open_the_browser_and_naviate_to_url()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "line": 6,
+            "name": "To verify the page title",
+            "keyword": "When "
+          },
+          {
+            "line": 7,
+            "name": "Enter \"\u003cusername\" and \"admin123\"",
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "Then "
+          },
+          {
+            "line": 8,
+            "name": "Click on login button",
+            "keyword": "Then "
+          },
+          {
+            "line": 9,
+            "name": "Take screenshot and close the browser",
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "To validate the OangeHRM Application Functionality",
+    "description": "",
+    "id": "to-validate-the-oangehrm-application-functionality",
+    "keyword": "Feature",
+    "uri": "C:/Eclipse/Cucumber/feature/login.feature"
+  }
+]
